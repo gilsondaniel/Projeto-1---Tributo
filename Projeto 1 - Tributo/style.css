@@ -1,0 +1,68 @@
+body{
+    background-color: #eff1f0;
+}
+
+.header h1{
+    text-align: center;
+}
+
+.header p{
+    font-style: italic;
+    text-align: center;
+}
+
+.image{
+    text-align: center;
+}
+
+.about{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+.phrase{
+    margin: 40px 0px;
+    background-color: #9c9c9c81;
+    padding: 20px 40px;
+}
+
+.phrase p{
+    font-style: italic;
+    color: #575757;
+}
+
+.curiosities{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+    width: 200px;
+}
+
+.curiosities li{
+    height: 30px;
+}
+
+.list{
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+
+.image-vocal{
+    height: 360px;
+    width: 600px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.footer{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}

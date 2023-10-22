@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+
+#desafio3{
+    background-color: #683636;
+    height: 200px;
+    width: 250px;
+    padding: 5px;
+    border: 2px solid #000;
+    outline: 2px solid red;
+    margin: 20px;
+
+}
+
+.tarefa3{
+    color: #fff;
+    background-color: #000;
+}
+
