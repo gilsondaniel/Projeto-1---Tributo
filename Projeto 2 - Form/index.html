@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest. Socioeconômico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1>Formulário Socioeconômico</h1>
+    </div>
+
+    <div class="container">
+
+        <div class="form-container">
+
+            <div class="form-header">
+                <p>Formulário</p>
+            </div>
+
+            <div class="form-body">
+            <h1>Responda</h1>
+            <p>Leia o questionário abaixo e reponda com sinceridade.</p>
+               
+
+               <form>
+              <div class="box-input">
+                <label for="name">Nome Completo <span class="required-sinal">*</span></label>
+                <input type="text" name="name" class="block" placeholder="Preencha com seu nome" required/>
+                </div>
+
+             <div class="box-input">
+                <label for="birthyear">Data de nascimento <span class="required-sinal">*</span></label>
+                <input type="date" name="birthyear" class="block" required>
+              </div>
+
+             <div class="box-input">
+                <label for="salary">Seu Salário <span class="required-sinal">*</span></label>
+              <input type="number" name="salary" class="block" placeholder="Preencha com seu salário" required>
+               </div>
+
+             <div class="box-input">
+                <label for="description">Descreva como é o seu estilo de vida <span class="required-sinal">*</span></label>
+               <textarea name="description" class="block" placeholder="Preencha com o seu estilo de vida" required></textarea>
+                </div>
+
+               <div class="box-input">
+              <label for="income">Qual a renda bruta da sua casa? <span class="required-sinal">*</span></label>
+             <div class="radio">
+                <input type="radio" value="one-salary" name="income">
+                <label for="one-salary">Um salários</label>
+              </div>
+              <div class="radio">
+                <input type="radio" value="two-salaries" name="income">
+                <label for="two-salaries">Dois salários</label>
+              </div>
+                <div class="radio">
+                <input type="radio" value="three-salaries" name="income">
+                <label for="three-salaries">Três salários</label>
+               </div>
+             <div class="radio">
+                <input type="radio" value="four-salaries-or-more" name="income">
+                <label for="four-salaries-or-more">Quatro salários ou mais</label>
+                </div>
+              </div>
+
+              <!-- Meu -->
+              <div class="optional-box">
+                <p>Quais destes eletrodomésticos estão presentes em sua casa? <span class="required-sinal">*</span></p>
+                <ul class="optional-list">
+                <li>
+                <input type="checkbox" value="washing-machine" name="optional[]"/>
+               <label for="washing-machine">Máquina de lavar</label>
+               </li>
+               <li>
+               <input type="checkbox" value="eletric-shower" name="optional[]"/>
+               <label for="eletric-shower">Chuveiro Elétrico</label>
+               </li>
+               <li>
+               <input type="checkbox" value="dish-washer" name="optional[]"/>
+               <label for="dish-washer">Lava-Louças</label>
+               </li>
+               <li>
+                <input type="checkbox" value="eltric-oven" name="optional[]"/>
+               <label for="eltric-oven">Forno elétrico</label>
+               </li>
+                </ul>
+             </div>
+              <div class="optional-box">
+                <ul class="optional-list">
+                <li>
+                <input type="checkbox" value="fan" name="optional[]"/>
+               <label for="fan">Ventilador</label>
+               </li>
+               <li>
+               <input type="checkbox" value="vacuun-cleaner" name="optional[]"/>
+               <label for="vacuun-cleaner">Aspirador de pó</label>
+               </li>
+               <li>
+               <input type="checkbox" value="refrigerator" name="optional[]"/>
+               <label for="refrigerator">Geladeira</label>
+               </li>
+               <li>
+              <input type="checkbox" value="microwave" name="optional[]"/>
+               <label for="microwave">Microondas</label>
+               </li>
+               </ul>
+              </div>
+
+              <!-- Curso -->
+              <div class="optional-box">
+                <p>Opcionais</p>
+                <ul class="optional-list">
+                  <li>
+                    <input
+                      type="checkbox"
+                      name="optional[]"
+                      value="airbag"
+                    />
+                    <label for="airbag">Airbag</label>
+                  </li>
+                  <li>
+                    <input
+                      type="checkbox"
+                      name="optional[]"
+                      value="alarm"
+                    />
+                    <label for="alarm">Alarme</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="optional[]" value="ac" />
+                    <label for="ac">Ar Condicionado</label>
+                  </li>
+                  <li>
+                    <input
+                      type="checkbox"
+                      name="optional[]"
+                      value="reverse_camera"
+                    />
+                    <label for="reverse_camera">Câmera de Ré</label>
+                  </li>
+                </ul>
+              </div>
+              <div class="optional-box">
+                <ul class="optional-list">
+                  <li>
+                    <input
+                      type="checkbox"
+                      name="optional[]"
+                      value="lane_assist"
+                    />
+                    <label for="lane_assist">Assistente de Pista</label>
+                  </li>
+                  <li>
+                    <input
+                      type="checkbox"
+                      name="optional[]"
+                      value="keyless"
+                    />
+                    <label for="keyless">Partida Keyless</label>
+                  </li>
+                  <li>
+                    <input
+                      type="checkbox"
+                      name="optional[]"
+                      value="smartphone"
+                    />
+                    <label for="smartphone">Integração com Celular</label>
+                  </li>
+                  <li>
+                    <input
+                      type="checkbox"
+                      name="optional[]"
+                      value="leather_seat"
+                    />
+                    <label for="leather_seat">Banco de Couro</label>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="box-input">
+              <label for="work-card">Carteira de Trabalho <span class="required-sinal">*</span></label>
+             <input type="file" name="work-card">
+              </div>
+
+              <input type="submit" value="Enviar informações">
+              </form>
+         </div>
+     </div>
+    </div>
+    
+</body>
+</html>
