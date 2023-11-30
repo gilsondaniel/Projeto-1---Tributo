@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #d9dcd6;
+}
+
+h1{
+    color: #1d2d44;
+}
+
+h2{
+    color:  #1d2d44;
+}
+
+p{
+    color: #3e5c76;
+}
+
+.navbar-container{
+    background-color: #1d2d44;
+    height: 80px;
+    width: 100%;
+    padding: 0 2rem;
+}
+
+nav{
+    position: relative;
+}
+
+.logo{
+    width: 80px;
+}
+
+.navbar-itens{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    display: inline-block;
+    margin: 0;
+}
+
+.navbar-itens li{
+    display: inline-block;
+}
+
+.navbar-itens a{
+    margin-left: 20px;
+    color: #fdfdfd;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+.navbar-itens a:hover{
+    color: #ebebeb;
+}
+
+.enter-btn{
+    background-color:#1d2d44 ;
+    padding: 15px 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.navbar-itens .enter-btn:hover{
+    background-color: #ebebeb;
+    color: #000;
+}
+
+.main-banner{
+    background-image: url(img/banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 15rem 0;
+    position: relative;
+}
+
+.main-banner h1{
+    color: #fdfdfd;
+    position: absolute;
+    left: 230px;
+    bottom: 100px;
+    font-weight: bold;
+    text-shadow: #000 3px 2px 3px;
+}
+
+.main-banner p{
+    color: #fdfdfd;
+    position: absolute;
+    left: 200px;
+    bottom: 75px;
+    font-weight: bold;
+    text-shadow: #000 3px 2px 3px;
+}
+
+/* container de apresentação */
+
+.we-are-container{
+    padding: 5rem 0;
+}
+
+.we-are-container h2{
+    color: #1d2d44;
+    font-size: 30px;
+    margin-bottom: 25px ;
+}
+
+.we-are-container p{
+    line-height: 24px;
+}
+
+.we-are-container ul{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.we-are-container li{
+    flex: 1 1 200px;
+    text-align: center;
+    list-style: none;
+    padding: 20px;
+}
+
+.icon{
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+/* container plano de ação */
+
+.planaction-container{
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.planaction-container h2{
+    padding-bottom: 1rem;
+}
+
+.plans-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 35px auto 0;
+}
+
+.plans{
+    flex: 1;
+    max-width: 275px;
+    margin: 0 20px;
+}
+
+.plans ul{
+    padding: 0;
+}
+
+.plans li{
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #1d2d44;
+    color: #c5c5c5;
+    font-size: 14px;
+}
+
+.plans .plan-name{
+    font-size: 16px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 120px;
+    background-color:#1d2d44 ;
+    color: #d9dcd6;
+    margin: 0 auto -50px;
+    position: relative;
+}
+
+.plans .investment{
+    font-size: 16px;
+    padding: 50px 0;
+    background-color: #0d1321;
+    color: #d9dcd6;
+}
+
+.plans .plan-btn{
+    background-color: #3e5c76;
+    color: #d9dcd6 ;
+    cursor: pointer;
+    height: 55px;
+    line-height: 55px;
+}
+.plans .recommended1{
+    background-color: #660708;
+}
+
+.plans .recommended2{
+    background-color: #e5383b ;
+}
+
+/* container de busca */
+
+.search-container{
+    padding: 1rem 0;
+    background-color: #1d2d44 ;
+    background-position: center;
+    background-size: 100%;
+}
+
+.search-container h2{
+    color: #fff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.images img{
+    border-radius: 5px;
+}
+
+.introduction{
+    text-align: center;
+}
+
+.introduction p{
+    color: #d9dcd6;
+    margin-bottom: 25px;
+}
+
+.introduction img{
+    width: 50%;
+}
+
+.search-container label{
+    color: #d9dcd6;
+}
+
+form{
+    margin: 2rem;
+}
+
+form p{
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.name input{
+    background-color: #d9dcd6;
+    width: 61.5%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.email input{
+    background-color: #d9dcd6;
+    width: 70%;
+    padding: 15px;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+
+.authorization{
+    margin-bottom: 3rem;
+}
+
+.search-container input[type="submit"]{
+    background-color: #d9dcd6;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* container de contato */
+
+footer{
+    background-color: #1d2d44;
+    border-top: 1px solid #353535;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p{
+    color: #afafaf;
+}
+
+/* media queries */
+
+/* tablets - 768px */
+
+@media (max-width: 768px){
+    .navbar-itens a{
+        font-size: 14px;
+    }
+
+    .main-banner h1{
+        left: 165px;
+     bottom: 130px;
+    }
+
+    .main-banner p{
+        left: 130px;
+        bottom: 105px;
+    }
+
+    .we-are-container ul{
+        display: block;
+    }
+
+    .images{
+        text-align: center;
+    }
+
+    .images img{
+        width: 45%;
+    }
+
+    .email input {
+        width: 73%;
+    }
+
+    footer{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 425px){
+
+    html, body{
+        overflow-x: hidden;
+    }
+    .plans-container{
+        display: block;
+    }
+
+    .navbar-container{
+        padding: 0;
+    }
+
+    .main-banner h1 {
+        font-size: 26px;
+        left: 33px;
+        bottom: 130px;
+    }
+
+    .main-banner p {
+        font-size: 14px;
+        left: 6px;
+        bottom: 110px;
+    }
+
+    .icon {
+        width: 70px;
+        margin-bottom: 15px;
+    }
+
+    .we-are-container h2 {
+        color: #1d2d44;
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+
+    .we-are-container p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .planaction-container h2 {
+        font-size: 26px;
+    }
+
+    .planaction-container  {
+        font-size: 16px;
+    }
+
+    .plans-container{
+        text-align: center;
+    }
+
+    .plans{
+        margin-bottom: 2rem;
+    }
+
+    .name input {
+        padding: 10px;
+    }
+
+    .email input {
+        width: 81%;
+        padding: 10px;
+    }
+
+    .search-container label {
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
