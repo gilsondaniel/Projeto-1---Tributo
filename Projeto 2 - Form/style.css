@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #f0ebf8;
+    background-color: #90E0EF;
     padding-bottom: 500px;
 }
 
@@ -20,6 +20,7 @@ input{
     border: none;
     border-bottom: 1px solid #ccc;
     padding: 10px 0;
+    background-color: #CAF0F8;
 }
 
 input[type= text], 
@@ -31,7 +32,7 @@ input[type= file]{
 
 .header{
     padding: 20px;
-    background-color: #673ab7;
+    background-color: #0077B6;
     height: 160px;
 }
 
@@ -45,7 +46,7 @@ input[type= file]{
 .form-container{
     margin: 50px;
     padding: 10px;
-    background-color: #fdfdfd;
+    background-color: #CAF0F8;
     width: 60%;
     margin: 0 auto;
     position: relative;
@@ -58,8 +59,8 @@ input[type= file]{
 }
 
 .form-header p{
-    color: #673ab7;
-    border-bottom: 2px solid #673ab7;
+    color: #0077B6;
+    border-bottom: 2px solid #0077B6;
     width: 100px;
     text-align: center;
     margin: 0 auto;
@@ -77,7 +78,15 @@ input[type= file]{
 }
 
 .form-body p{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.title-radio{
+    margin-bottom: 10px;
+}
+
+.title-textarea{
+    margin-bottom: 10px;
 }
 
 .required-sinal{
@@ -86,6 +95,10 @@ input[type= file]{
 
 .box-input{
     margin-bottom:35px ;
+}
+
+.box-input p{
+    margin-bottom: 15px;
 }
 
 .block{
@@ -100,4 +113,22 @@ input[type= file]{
  .optional-list li{
     list-style: none;
     margin-bottom: 5px;
+ }
+
+ .btn-submit{
+    background-color: #0077B6;
+    color: #CAF0F8;
+    font-size: 12px;
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    transition: 0.5s;
+    border: 2px solid transparent;
+    text-transform: uppercase;
+ }
+
+ .btn-submit:hover{
+    background-color: #CAF0F8;
+    color: #0077B6;
+    border-color: #0077B6;
  }

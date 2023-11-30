@@ -28,7 +28,25 @@
                <form>
               <div class="box-input">
                 <label for="name">Nome Completo <span class="required-sinal">*</span></label>
-                <input type="text" name="name" class="block" placeholder="Preencha com seu nome" required/>
+                <input type="text" maxlength="35" name="name" class="block" placeholder="Preencha com seu nome" required/>
+                </div>
+
+                <div class="box-input">
+                  <div class="title-radio">
+                  <label for="gender">Gênero <span class="required-sinal">*</span></label>
+                  </div>
+                  <div class="radio">
+                    <label for="gender">Masculino</label>
+                    <input type="radio" value="male" name="gender">
+                  </div>
+                  <div class="radio">
+                    <label for="gender">Feminino</label>
+                    <input type="radio" value="female" name="gender">
+                  </div>
+                  <div class="radio">
+                    <label for="gender">Prefiro não informar</label>
+                    <input type="radio" value="no-information" name="gender">
+                  </div>
                 </div>
 
              <div class="box-input">
@@ -37,17 +55,43 @@
               </div>
 
              <div class="box-input">
-                <label for="salary">Seu Salário <span class="required-sinal">*</span></label>
-              <input type="number" name="salary" class="block" placeholder="Preencha com seu salário" required>
+                <label for="telephone">Telefone <span class="required-sinal">*</span></label>
+              <input type="number" name="telephone" class="block" placeholder="Preencha com seu telefone" required>
                </div>
 
+               <div class="box-input">
+                <div class="title-radio">
+                <label for="marital-status">Estado Civil <span class="required-sinal">*</span></label>
+              </div>
+               <div class="radio">
+                  <input type="radio" value="single" name="marital-status">
+                  <label for="single">Solteiro</label>
+                </div>
+                <div class="radio">
+                  <input type="radio" value="married" name="marital-status">
+                  <label for="married">Casado</label>
+                </div>
+                  <div class="radio">
+                  <input type="radio" value="separate" name="marital-status">
+                  <label for="separate">Separado</label>
+                 </div>
+               <div class="radio">
+                  <input type="radio" value="widower" name="marital-status">
+                  <label for="widower">Viúvo</label>
+                  </div>
+                </div>
+
              <div class="box-input">
+              <div class="title-textarea">
                 <label for="description">Descreva como é o seu estilo de vida <span class="required-sinal">*</span></label>
+              </div>
                <textarea name="description" class="block" placeholder="Preencha com o seu estilo de vida" required></textarea>
                 </div>
 
                <div class="box-input">
+                <div class="title-radio">
               <label for="income">Qual a renda bruta da sua casa? <span class="required-sinal">*</span></label>
+            </div>
              <div class="radio">
                 <input type="radio" value="one-salary" name="income">
                 <label for="one-salary">Um salários</label>
@@ -185,7 +229,7 @@
              <input type="file" name="work-card">
               </div>
 
-              <input type="submit" value="Enviar informações">
+              <input type="submit" value="Enviar informações" class="btn-submit">
               </form>
          </div>
      </div>
